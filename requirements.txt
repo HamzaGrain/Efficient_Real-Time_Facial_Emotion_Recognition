@@ -1,0 +1,13 @@
+numpy==1.26.4
+Pillow==12.1.0
+matplotlib==3.10.8
+tqdm==4.68.2
+
+torch==2.9.1
+torchvision==0.24.1
+
+torchmetrics
+mlxtend
+kagglehub
+
+opencv-contrib-python==4.7.0.72
