@@ -7,18 +7,16 @@ expressions.
 The system processes webcam images in real time and predicts one of
 six emotion classes.
 
----
 
-## 🎥 Real-Time Demo
+## Real-Time Demo
 
 The system performs facial emotion recognition directly from a webcam,
 with real-time prediction, confidence and stability monitoring.
 
 ![Real-Time Facial Emotion Recognition](results/realtime_demo.gif)
 
----
 
-## 🧠 System Overview
+## System Overview
 
 The complete pipeline combines face detection, face tracking,
 image preprocessing and CNN-based emotion classification.
@@ -39,7 +37,6 @@ The real-time implementation uses:
 - Prediction stability monitoring
 - Real-time FPS and latency measurements
 
----
 
 ## Objective
 
@@ -54,7 +51,6 @@ The system is designed to combine:
 - Confidence estimation
 - Prediction stability monitoring
 
----
 
 ## Dataset
 
@@ -100,7 +96,7 @@ The architecture contains:
 - Max pooling
 - A fully connected classification layer
 - Six output classes
----
+
 
 The model receives grayscale 48 × 48 facial images.
 
@@ -131,7 +127,7 @@ The inference pipeline performs:
 - Softmax probability estimation
 - Emotion prediction
 - Confidence and stability estimation
----
+
 
 The system also monitors:
 ````
@@ -140,7 +136,7 @@ Pipeline FPS
 Inference latency
 Prediction confidence
 Prediction stability
-📁 Project Structure
+Project Structure
 Facial-Emotion-Recognition/
 │
 ├── README.md
@@ -222,7 +218,7 @@ The notebook contains:
 - Validation
 - Evaluation
 - Visualization of results
----
+
 The FER2013 dataset is downloaded programmatically using kagglehub.
 
 ## Results
@@ -237,7 +233,7 @@ These may include:
 - Classification metrics
 - Real-time performance measurements
 - Real-time demonstration
----
+  
 See:
 ````
 results/README.md
@@ -257,7 +253,7 @@ The project uses:
 - FER2013
 - Haar Cascade
 - MOSSE Tracker
----
+
 ## Publication
 
 This project is associated with the following publication:
@@ -287,7 +283,7 @@ HAL.
 - Hamza Bayd
 - Imene Sekkiou
 - Baptiste Magnier
----
+
 This project was developed as a collaborative academic project.
 
 ## Citation
