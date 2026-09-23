@@ -23,7 +23,7 @@ with real-time prediction, confidence and stability monitoring.
 The complete pipeline combines face detection, face tracking,
 image preprocessing and CNN-based emotion classification.
 
-![Facial Emotion Recognition Pipeline](results/pipeline.png)
+![Facial_Emotion_Recognition_Pipeline](results/pipeline.png)
 
 The main processing stages are:
 
