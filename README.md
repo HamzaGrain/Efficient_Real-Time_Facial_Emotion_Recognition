@@ -13,7 +13,9 @@ six emotion classes.
 The system performs facial emotion recognition directly from a webcam,
 with real-time prediction, confidence and stability monitoring.
 
-![Real-Time Facial Emotion Recognition](results/realtime_demo.gif)
+<p align="center">
+  <img src="results/realtime_demo.gif" width="800">
+</p>
 
 
 ## System Overview
