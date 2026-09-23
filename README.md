@@ -75,7 +75,8 @@ The original dataset is not included in this repository.
 
 Dataset source:
 
-Kaggle — FER2013
+- **Dataset:** FER2013
+- **Source:** [Kaggle — FER2013](https://www.kaggle.com/datasets/msambare/fer2013)
 
 More information about the dataset is available in:
 ````
