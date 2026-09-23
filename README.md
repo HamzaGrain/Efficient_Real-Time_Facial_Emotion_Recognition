@@ -94,13 +94,14 @@ PyTorch.
 
 The architecture contains:
 
-Two convolutional blocks
-Convolutional layers
-ReLU activations
-Max pooling
-A fully connected classification layer
-Six output classes
+- Two convolutional blocks
+- Convolutional layers
+- ReLU activations
+- Max pooling
+- A fully connected classification layer
+- Six output classes
 ---
+
 The model receives grayscale 48 × 48 facial images.
 
 The model definition and training experiments are available in:
@@ -120,16 +121,16 @@ src/main_six_classes.py
 ````
 The inference pipeline performs:
 
-Webcam frame acquisition
-Face detection using Haar Cascade
-Face tracking using MOSSE
-Face region extraction
-Grayscale conversion
-Resizing to 48 × 48
-CNN inference
-Softmax probability estimation
-Emotion prediction
-Confidence and stability estimation
+- Webcam frame acquisition
+- Face detection using Haar Cascade
+- Face tracking using MOSSE
+- Face region extraction
+- Grayscale conversion
+- Resizing to 48 × 48
+- CNN inference
+- Softmax probability estimation
+- Emotion prediction
+- Confidence and stability estimation
 ---
 
 The system also monitors:
@@ -213,14 +214,14 @@ notebooks/Facial_recognition_Model_1_FER2013.ipynb
 ````
 The notebook contains:
 
-Dataset loading
-Data preprocessing
-Data augmentation
-Model definition
-Training
-Validation
-Evaluation
-Visualization of results
+- Dataset loading
+- Data preprocessing
+- Data augmentation
+- Model definition
+- Training
+- Validation
+- Evaluation
+- Visualization of results
 ---
 The FER2013 dataset is downloaded programmatically using kagglehub.
 
@@ -231,11 +232,11 @@ from the experiments.
 
 These may include:
 
-Training and validation curves
-Confusion matrices
-Classification metrics
-Real-time performance measurements
-Real-time demonstration
+- Training and validation curves
+- Confusion matrices
+- Classification metrics
+- Real-time performance measurements
+- Real-time demonstration
 ---
 See:
 ````
@@ -247,15 +248,15 @@ for more information.
 
 The project uses:
 
-Python
-PyTorch
-Torchvision
-OpenCV
-NumPy
-Matplotlib
-FER2013
-Haar Cascade
-MOSSE Tracker
+- Python
+- PyTorch
+- Torchvision
+- OpenCV
+- NumPy
+- Matplotlib
+- FER2013
+- Haar Cascade
+- MOSSE Tracker
 ---
 ## Publication
 
@@ -279,13 +280,13 @@ HAL.
 ````
 ## Authors
 
-Hamza Graïn
-Youssef Hayani
-Yanis Blot-El Mazouzi
-Amadou Diallo
-Hamza Bayd
-Imene Sekkiou
-Baptiste Magnier
+- Hamza Graïn
+- Youssef Hayani
+- Yanis Blot-El Mazouzi
+- Amadou Diallo
+- Hamza Bayd
+- Imene Sekkiou
+- Baptiste Magnier
 ---
 This project was developed as a collaborative academic project.
 
