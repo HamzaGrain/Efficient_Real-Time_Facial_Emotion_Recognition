@@ -44,6 +44,8 @@ Neutral
 Sad
 Surprise
 ````
+<img width="640" height="325" alt="image" src="https://github.com/user-attachments/assets/7d8d4229-0b2c-45f2-90f3-ce65c3ebddce" />
+
 ## Dataset availability
 
 The original dataset is not included in this repository.
